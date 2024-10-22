@@ -1,0 +1,15 @@
+name = input("โปรดกรอกชื่อ :\n")
+age = input("โปรดกรอกอายุ :\n")
+number =input("โปรดกรอกรหัสระจำตัวนักเรียน :\n")
+year =input("โปรดชั้นปี \n" )
+nickname =input("โปรดกรอกชื่อเล่น \n:")
+height =float(input("โปรดกรอกส่วนสูง :\n"))
+weight =float(input("โปรดกรอกน้ำหนัก :\n"))
+a = height + weight
+
+print("ประวัติโดยย่อ")
+print(f"ชื่อ : {name} อายุ : {age} ปี")
+print(f"รหัสประจำตัวนักเรียน :{number} ระดับชั้น :  {year}")
+print(f"ชื่อเล่น :  {nickname}")
+print(f"ส่วนสูง :  {height} เซนติเมตร  น้ำหนัก : {weight} กิโลกรัม")
+print(f"ส่วนสูง + น้ำหนัก = {a}")
